@@ -1,0 +1,340 @@
+
+.auto-left-box {
+    width: 182px;
+    height: 168px;
+    position: relative;
+    .innerRoundedBox {
+        h5 {
+            font-size: 17px !important;
+            line-height: 24px !important; 
+            text-align: left;
+            margin: 0 0 20px;
+        }
+        h4 {
+            font-size: 30px;
+            line-height: 40px; 
+            text-align: left;
+        }
+        h6 {
+            font-size: 14px;
+            line-height: 20px; 
+            letter-spacing: 0.21px;
+            text-align: left;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #000;
+        left: 0;
+        top: 0;
+        content: "";
+        z-index: 0;
+    }
+}
+
+.auto-invest-top {
+    width: 952px;
+    height: 232px;
+    border-radius: 16px;
+    border: 1px solid #E5E5F3;
+    background: var(--White, #FFF);
+    padding: 32px 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 64px;
+    margin-bottom: 32px;
+}
+
+
+.auto-right-box {
+    width: 100%;
+    .account-status {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 480px;
+        margin-bottom: 34px;
+    }
+}
+
+
+
+.account-status-info {
+    h4 {
+        color: var(--Black, #0D0F52);
+        font-family: proxima-nova, sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; 
+        margin: 0;
+        &.active {
+            color: var(--Green, #80CB17);
+        }
+        
+    }
+
+    p {
+        color: var(--Black, #0D0F52);
+        font-family: "Proxima Nova";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        letter-spacing: 0.21px;
+        opacity: 0.5;
+        margin: 0;
+    }
+    
+}
+
+.account-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        color: var(--Black, #0D0F52);
+        font-family: proxima-nova, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        letter-spacing: 0.21px;
+        opacity: 0.5;
+        margin: 0;
+    }
+
+    .btn-group {
+        gap: 12px;
+        margin: 0;
+        width: auto;
+
+        .btn-stop {
+            height: 48px;
+            border-radius: 42px;
+            background: var(--Red, #FF6769);
+            color: var(--White, #FFF);
+            text-align: center;
+            font-family: proxima-nova, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 142.857% */
+            padding: 14px 24px;
+            text-transform: capitalize;
+        }
+
+        .btn {
+            &.btn-Secondary {
+                border-radius: 42px;
+                border: 1px solid #E5E5F3;
+                background: var(--White, #FFF);
+                display: flex;
+                padding: 14px 24px;
+                align-items: center;
+                min-width: auto;
+                height: 48px;
+                color: var(--Black, #0D0F52);
+                font-family: proxima-nova, sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.14px;
+                text-transform: capitalize;
+                flex-grow: 1;
+            }
+        }
+    }
+}
+
+.chartGroup {
+    width: 952px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    width: 464px;
+    height: 368px;
+    padding: 40px 48px;
+    border-radius: 16px;
+    border: 1px solid var(--Border-gray, #E5E5F3);
+    background: var(--White, #FFF);
+
+    .chart-title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .icon {
+            position: relative;
+            top: -1px;
+        }
+    }
+
+    h3 {
+        color: var(--Black, #0D0F52);
+        font-family: proxima-nova, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+        margin: 0 0 43px;
+    }
+}
+
+
+
+
+.chart-labels {
+    width: 160px;
+    margin: 32px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .text-labels {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 12px;
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 16px;
+            background: var(--Primary, #2D91FE);
+            box-shadow: 0 32px 26px -20px rgba(30, 71, 106, 0.24);
+            &.light {
+                background: #4BDFFF;
+                box-shadow: 0 32px 26px -20px rgba(30, 71, 106, 0.24);
+            }
+        }
+        .label {
+            color: var(--Black, #0D0F52);
+            font-family: proxima-nova, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: 0.21px;
+        }
+    }
+
+    
+}
+
+.chart-place{
+    &.risk {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 68px;
+        .chart-labels {
+            flex-direction: column;
+            gap: 12px;
+            margin: 0;
+            .text-labels {
+                gap: 14px;
+                .dot {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 16px;
+                    background: var(--Primary, #2D91FE);
+                    &.sky {
+                        border-radius: 16px;
+                        background: var(--Secondary, #4BDFFF);
+                    }
+                    &.yellow {
+                        border-radius: 16px;
+                        background: var(--Orrange, #FFC359);
+                    }
+                    &.red {
+                        border-radius: 16px;
+                        background: var(--Red, #FF6769);
+                    }
+                }
+                .label {
+                    color: var(--Black, #0D0F52);
+                    font-family: proxima-nova, sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px; 
+                    letter-spacing: 0.21px;
+                }
+            }
+        }
+        
+    
+    }
+}
+
+
+
+.info-about-us {
+    margin: 72px auto 0;
+    width: 952px;
+    h3 {
+        color: var(--Black, #0D0F52);
+        font-family: proxima-nova, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+        margin: 0 0 40px;
+    }
+
+    .about-info {
+        .accordion {
+            h2 {
+                &.accordion-header {
+                    color: var(--Black, #0D0F52);
+                    font-family: proxima-nova, sans-serif;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 141.176% */
+                    border-bottom: 1px solid #E5E5F3;
+                    padding: 0 0 15px;
+                    margin: 0;
+
+                }
+            }
+            .accordion-button {
+                padding: 0;
+                border: 0;
+                position: relative;
+                width: 100%;
+                text-align: left;
+                background: transparent;
+                font-weight: 400;
+                color: var(--Black, #0D0F52);
+                &:after {
+                    content: "";
+                    background-image: url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.3"><path d="M15 5L8 12L1 5" stroke="%230D0F52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>');
+                    background-size: 16px;
+                    position: absolute;
+                    right: 0;
+                    width: 16px;
+                    height: 16px;
+                }
+                
+            }
+
+            .accordion-item {
+                margin: 0 0 20px;
+
+                .accordion-body {
+
+                }
+            }
+            
+        }
+    }
+}

